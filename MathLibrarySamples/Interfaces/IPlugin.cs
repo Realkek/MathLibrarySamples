@@ -1,5 +1,8 @@
 ﻿namespace ds.test.impl.Interfaces
 {
+    /// <summary>
+    /// базовый интерфейс любого плагина
+    /// </summary>
     public interface IPlugin
     {
         string PluginName { get; }
