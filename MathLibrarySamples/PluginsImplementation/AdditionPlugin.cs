@@ -5,7 +5,7 @@ namespace ds.test.impl.PluginsImplementation;
 /// <summary>
 /// Плагин для сложения 
 /// </summary>
-public class AdditionPlugin : PluginBase
+internal class AdditionPlugin : PluginBase
 {
     public override string PluginName => "AdditionPlugin";
     public override string Version => "1.0";
@@ -21,7 +21,7 @@ public class AdditionPlugin : PluginBase
     public override int Run(int input1, int input2)
     {
         // Проверка входных данных
-        if (input1 > int.MaxValue || input2 > int.MaxValue)
+        if (input1 >= int.MaxValue || input2 >= int.MaxValue)
             throw new ArgumentOutOfRangeException();
 
         // Проверка переполнения
