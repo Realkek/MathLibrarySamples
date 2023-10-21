@@ -5,7 +5,7 @@ namespace ds.test.impl;
 /// <summary>
 /// Базовое описание любого плагина
 /// </summary>
-public abstract class PluginBase : IPlugin
+internal abstract class PluginBase : IPlugin
 { 
     public abstract string PluginName { get; }
     public abstract string Version { get; }

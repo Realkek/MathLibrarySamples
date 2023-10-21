@@ -5,7 +5,7 @@ namespace ds.test.impl.PluginsImplementation;
 /// <summary>
 /// Плагин для деления
 /// </summary>
-public class DivisionPlugin : PluginBase
+internal class DivisionPlugin : PluginBase
 {
     public override string PluginName => "DivisionPlugin";
     public override string Version => "1.0";

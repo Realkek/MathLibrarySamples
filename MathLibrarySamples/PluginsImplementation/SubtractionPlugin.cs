@@ -1,10 +1,11 @@
 ﻿using System.Drawing;
 
 namespace ds.test.impl.PluginsImplementation;
+
 /// <summary>
 /// Плагин для вычитания 
 /// </summary>
-public class SubtractionPlugin: PluginBase
+internal class SubtractionPlugin : PluginBase
 {
     public override string PluginName => "SubtractionPlugin";
     public override string Version => "1.0";

@@ -1,4 +1,4 @@
-﻿namespace ds.test.impl.Interfaces
+﻿namespace ds.test.impl
 {
     /// <summary>
     /// базовый интерфейс любого плагина

@@ -4,7 +4,7 @@ namespace ds.test.impl.PluginsImplementation;
 /// <summary>
 /// Плагин для умножения 
 /// </summary>
-public class MultiplicationPlugin : PluginBase
+internal class MultiplicationPlugin : PluginBase
 {
     public override string PluginName => "MultiplicationPlugin";
     public override string Version => "1.0";
