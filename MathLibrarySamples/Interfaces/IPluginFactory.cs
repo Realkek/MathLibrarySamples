@@ -2,7 +2,7 @@
 /// <summary>
 /// Описание типичной фабрики плагинов
 /// </summary>
- interface IPluginFactory
+internal interface IPluginFactory
 {
     int  PluginsCount { get; }
     string[] GetPluginNames();
